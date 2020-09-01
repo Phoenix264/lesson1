@@ -1,0 +1,5 @@
+#pragma once
+
+int GetVersion();
+
+#cmakedefine PROJECT_VERSION_PATCH @PROJECT_VERSION_PATCH@
