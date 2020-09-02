@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(lesson1 VERSION 0.1.$ENV{TRAVIS_BUILD_NUMBER})
+project(lesson1 VERSION 0.1.$ENV{TRAVIS_BUILD_NUMBER}) 
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 configure_file(version.h.in ${PROJECT_SOURCE_DIR}/version.h)
