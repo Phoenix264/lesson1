@@ -8,6 +8,7 @@ BOOST_AUTO_TEST_SUITE(lesson1_test_suite)
 BOOST_AUTO_TEST_CASE(lesson1_test_build)
 {
     BOOST_CHECK(GetVersion() > 0);
+    BOOST_CHECK(GetVersion() > 0);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
